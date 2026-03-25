@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="banner.png" alt="Vextrys Production Banner" width="100%">
+</p>
 # Vextrys Crypto Wallet 
 
 > **Official Repository of the Vextrys Project.**  
