@@ -12,6 +12,7 @@ All rights reserved © 2026.
 
 - **Status:** Development (Private Alpha)
 - **Official Telegram:** https://t.me/Vextrys
+- https://x.com/VextrysWallet 
 - **Release Date:** To be announced
 
 ---
