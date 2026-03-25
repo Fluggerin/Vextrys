@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vextrys Production</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body { 
+            background: #ffffff; 
+            margin: 0; 
+            display: flex; 
+            flex-direction: column;
+            align-items: center; 
+            justify-content: center; 
+            min-height: 100vh; 
+            font-family: 'Roboto', sans-serif; 
+            overflow-x: hidden;
+        }
+
+        .brand-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 40px;
+            height: 180px;
+        }
+
+        .logo-v {
+            width: 170px; 
+            height: auto;
+            opacity: 0;
+            transform: scale(0.8);
+            display: block;
+            animation: fadeInLogo 0.8s ease forwards 0.5s, moveToLeft 0.6s ease forwards 1.5s;
+        }
+
+        .text-extrys {
+            font-size: 85px; 
+            font-weight: 900; 
+            color: #000;
+            letter-spacing: -4px; 
+            width: 0;
+            overflow: hidden;
+            white-space: nowrap;
+            opacity: 0;
+            margin-left: -35px; 
+            line-height: 1;
+            animation: revealText 0.8s ease forwards 1.8s;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            width: 85%;
+            max-width: 400px;
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInBtns 0.8s ease forwards 2.8s;
+        }
+
+        .btn {
+            background: #000000;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 18px;
+            border-radius: 14px;
+            font-weight: 600;
+            font-size: 14px;
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: 0.3s;
+        }
+
+        .btn i, .btn svg { margin-right: 12px; width: 20px; text-align: center; }
+        .x-icon { fill: white; width: 18px; height: 18px; }
+
+        @keyframes fadeInLogo {
+            to { opacity: 1; transform: scale(1); }
+        }
+        
+        @keyframes moveToLeft {
+            to { transform: translateX(-5px); }
+        }
+
+        @keyframes revealText {
+            from { width: 0; opacity: 0; }
+            to { width: 320px; opacity: 1; }
+        }
+
+        @keyframes fadeInBtns {
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @media (min-width: 650px) {
+            .links { flex-direction: row; max-width: 850px; }
+            .btn { flex: 1; }
+            .btn:hover { background: #1a1a1a; transform: translateY(-3px); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="brand-container">
+        <img src="logo.jpg" class="logo-v" alt="V">
+        <div class="text-extrys">extrys</div>
+    </div>
+
+    <div class="links">
+        <a href="https://t.me/Vextrys" target="_blank" class="btn">
+            <i class="fab fa-telegram-plane"></i> Telegram
+        </a>
+        <a href="https://x.com/VextrysWallet" target="_blank" class="btn">
+            <svg class="x-icon" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            Twitter / X
+        </a>
+        <a href="https://github.com/Fluggerin/Vextrys" target="_blank" class="btn">
+            <i class="fab fa-github"></i> GitHub
+        </a>
+    </div>
+
+</body>
+</html>
