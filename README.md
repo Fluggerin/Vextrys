@@ -21,7 +21,7 @@ One of our core features is the **Vextrys Native Gas-Token**.
 
 ## Features & Roadmap
 
-### ⛓️ Supported Networks
+### Supported Networks
 - [x] **Tron (TRC-20)** — *Full Integration (Current Focus)*
 - [ ] **Ethereum (ERC-20)** — *Planned Q3 2026*
 - [ ] **Binance Smart Chain (BEP-20)** — *Planned Q4 2026*
