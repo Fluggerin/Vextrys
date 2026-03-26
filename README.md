@@ -45,8 +45,8 @@ The name **Vextrys**, the conceptual design, and the underlying architecture are
 All rights reserved © 2026.
 
 - **Status:** Development (Private Alpha)
-- **Official Telegram:** [t.me/Vextrys](https://t.me/Vextrys)
-- **Official X (Twitter):** [@VextrysWallet](https://x.com/VextrysWallet)
+- **Official Telegram:** [t.me/Vextrys](https://t.me)
+- **Official X (Twitter):** [@VextrysWallet](https://x.com)
 - **Release Date:** To be announced
 
 ---
@@ -56,5 +56,5 @@ All rights reserved © 2026.
 
 ---
 <p align="center">
-  Built with by Vextrys Production
+  Built by Vextrys Production
 </p>
